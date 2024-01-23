@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site":"la-arbolada",
-    "public": "dist/la-arbolada",
+
+    "public": "dist/Proyecto-Sierras",
     "ignore": [
       "firebase.json",
       "**/.*",
