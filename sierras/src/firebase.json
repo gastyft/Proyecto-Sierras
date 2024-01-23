@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+    "site": "caba-519b0",
     "ignore": [
       "firebase.json",
       "**/.*",
