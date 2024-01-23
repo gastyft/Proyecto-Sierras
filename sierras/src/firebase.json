@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "site": "caba-519b0",
+    "site":"la-arbolada",
+    "public": "dist/la-arbolada",
     "ignore": [
       "firebase.json",
       "**/.*",
