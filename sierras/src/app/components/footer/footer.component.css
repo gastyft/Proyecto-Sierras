@@ -20,13 +20,16 @@
   }
   .li{
    
-     padding:10px;
+    
    padding-left: -20px;
     height: 60px;
   }
   i{
     width: 100%;
-    height: 20px;
-    padding: 10px;
+  
+    font-size: 60px;
+     
   }
+  
+
   
