@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "la-arbolada"
-  }
+    "default": "la-arbolada",
+    "sierras": "la-arbolada"
+  },
+  "targets": {},
+  "etags": {}
 }
