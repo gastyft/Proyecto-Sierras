@@ -1,0 +1,15 @@
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+     
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+      <button class="nav-link" id="nav-como-llegar-tab" data-bs-toggle="tab" data-bs-target="#nav-como-llegar" type="button" role="tab" aria-controls="nav-como-llegar" aria-selected="false" >Como llegar</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><app-principal></app-principal></div>
+ 
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0"> <app-contact></app-contact></div>
+    <div class="tab-pane fade" id="nav-como-llegar" role="tabpanel" aria-labelledby="nav-como-llegar-tab" tabindex="0"><app-como-llegar></app-como-llegar></div>
+    <app-footer></app-footer>
+  </div>
