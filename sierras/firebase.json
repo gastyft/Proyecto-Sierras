@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "sierras",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "sierras/index.html"
+        "destination": "/index.html"
       }
     ]
   }
