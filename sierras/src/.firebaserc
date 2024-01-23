@@ -1,7 +1,8 @@
 {
   "projects": {
-    "default": "caba-519b0",
-    "la-arbolada": "la-arbolada"
+    "default": "la-arbolada",
+    "la-arbolada": "la-arbolada",
+    "Proyecto-Sierras": "la-arbolada"
   },
   "targets": {},
   "etags": {}
