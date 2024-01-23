@@ -1,12 +1,17 @@
  
    .img-fluid:hover {-webkit-transform:scale(1.3);transform:scale(1.3);   }
-  .img-fluid {overflow:hidden;    max-width: 60%;  padding-left: 90px;
+  .img-fluid {overflow:hidden;    max-width: 70%;  padding-left: 90px;
     height: auto;transition:all .5s ease-in-out;}
     
     .img-fluid1:hover {-webkit-transform:scale(1.3);transform:scale(1.3);   }
     .img-fluid1 {overflow:hidden;    max-width: 60%;
       height: auto;transition:all .5s ease-in-out; z-index: 3;}
-
+      
+      .img-fluid2:hover {-webkit-transform:scale(1.3);transform:scale(1.3);   }
+      .img-fluid2 {overflow:hidden;    max-width: 60%;
+        height: auto;transition:all .5s ease-in-out; z-index: 3;
+     left: 50 ;}
+  
 
 
 /* NO QUEDA TAN MAL DE ESTA FORMA

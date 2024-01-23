@@ -12,6 +12,7 @@ h5 {
   text-align: center;
   animation: blink 12s infinite;
   -webkit-animation: blink 12s infinite;
+  font-size: 70px;
 }
 
 body {
@@ -81,4 +82,6 @@ body {
 
 .container-fluid{
   background-color: dodgerblue;
+  background-image: url("src\assets\1.jpg");
+ 
 }
