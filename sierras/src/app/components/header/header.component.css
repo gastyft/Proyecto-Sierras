@@ -81,7 +81,32 @@ body {
 
 
 .container-fluid{
-  background-color: dodgerblue;
-  background-image: url("src\assets\1.jpg");
+  
+  background-image: url("/assets/1.jpg");
+
+  width:100%;
+  height:auto;
+ z-index: 3;
+ 
+animation:movimiento 10s infinite linear alternate;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+left: 0px;
+right: 0px;
+border-radius: 27px 27px 27px 27px;
+gap: 0;
+
+}
+@keyframes movimiento {
+from{
+background-position:bottom left;
+}to{ 
+background-position: top right;
+
+}
+
+  
+
  
 }
