@@ -81,9 +81,9 @@ body {
 
 
 .container-fluid{
-  position: relative;
-  background-image: url("/assets/1.jpg");
  
+  background-image: url("/assets/1.jpg");
+ top:40px;   
   width:100%;
   height:auto;
 
@@ -106,8 +106,10 @@ background-position: top right;
 
 }
 
-  
-
- 
 }
- 
+.nav {
+  position:relative;
+  
+  width: 100%;
+  z-index: 1000; /* Ajusta el valor según sea necesario */
+}

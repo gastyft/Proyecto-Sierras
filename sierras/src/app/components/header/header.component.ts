@@ -14,5 +14,7 @@ import { MasInfoComponent } from '../mas-info/mas-info.component';
     imports: [ContactComponent, RouterOutlet, PrincipalComponent, FooterComponent,ComoLlegarComponent,MasInfoComponent]
 })
 export class HeaderComponent {
-
+ 
+    
 }
+ 

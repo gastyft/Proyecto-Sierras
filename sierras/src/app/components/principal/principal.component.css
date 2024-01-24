@@ -41,9 +41,7 @@
   margin: auto;
 }
 
-#carouselExampleFade .carousel-inner {
-  height: 100vh; /* Esto hace que el carrusel ocupe el 100% de la altura de la ventana */
-}
+
  
  
 
@@ -60,9 +58,9 @@
 }
 
 /* Aplica la transición a las imágenes en el carrusel cuando se pasa el ratón */
-.carousel-inner img:hover {
-  transform: scale(1.3); /* Ajusta el valor de escala al pasar el ratón */
-}
+/*.carousel-inner img:hover {
+  transform: scale(1.3);} /* Ajusta el valor de escala al pasar el ratón */
+
 
 
 
@@ -78,7 +76,7 @@
 @media (min-width: 768px) and (max-width: 992px) {
     .img-fluid,
     .img-fluid1 {
-      max-width: 80%;
+      max-width: 100%;
  
     }
   }
@@ -87,7 +85,7 @@
   @media (min-width: 993px) and (max-width: 1200px) {
     .img-fluid,
     .img-fluid1 {
-      max-width: 90%; 
+      max-width: 100%; 
     }
   }
   

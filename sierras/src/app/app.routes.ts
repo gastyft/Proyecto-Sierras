@@ -6,6 +6,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ComoLlegarComponent } from './components/como-llegar/como-llegar.component';
 import { MasInfoComponent } from './components/mas-info/mas-info.component';
+import { Error404Component } from './components/error404/error404.component';
 
 export const routes: Routes = [
 
@@ -23,10 +24,10 @@ export const routes: Routes = [
     component:ComoLlegarComponent }, 
     {path: 'mas-info', 
     component:MasInfoComponent }, 
-  /*
+   
     { path: '**',  
   component: Error404Component  },
-  */
+   
   ];
   
   @NgModule({
