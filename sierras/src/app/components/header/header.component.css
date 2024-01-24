@@ -81,14 +81,14 @@ body {
 
 
 .container-fluid{
-  
+  position: relative;
   background-image: url("/assets/1.jpg");
-
+ 
   width:100%;
   height:auto;
- z-index: 3;
+
  
-animation:movimiento 10s infinite linear alternate;
+animation:movimiento 20s infinite linear alternate;
 background-repeat: no-repeat;
 background-size: cover;
 height: 500px;
@@ -110,3 +110,4 @@ background-position: top right;
 
  
 }
+ 

@@ -17,5 +17,19 @@
     <div class="tab-pane fade" id="nav-mas-info" role="tabpanel" aria-labelledby="nav-mas-info-tab" tabindex="0"> <app-mas-info></app-mas-info></div>
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0"> <app-contact></app-contact></div>
     <div class="tab-pane fade" id="nav-como-llegar" role="tabpanel" aria-labelledby="nav-como-llegar-tab" tabindex="0"><app-como-llegar></app-como-llegar></div>
-    <app-footer></app-footer>
   </div>
+  <app-footer></app-footer>
+  <script>
+    window.addEventListener('scroll', function() {
+      var nav = document.querySelector('.nav');
+      var container = document.querySelector('.container-fluid');
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition > container.offsetTop) {
+        nav.style.top = scrollPosition - container.offsetTop + 'px';
+      } else {
+        nav.style.top = '0';
+      }
+    });
+  </script>
+  

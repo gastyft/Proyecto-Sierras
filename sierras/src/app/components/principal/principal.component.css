@@ -51,7 +51,7 @@
 .carousel-inner img {
   max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
   height: auto;
-  transition: transform 0.5s ease-in-out; /* Añade la transición para un efecto suave */
+  transition: transform 5s ease-in-out; /* Añade la transición para un efecto suave */
 }
 
 /* Escala las imágenes activas en el carrusel */
